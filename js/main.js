@@ -14,29 +14,12 @@ console.clear();
 // - nieko nedarom...
 
 const buttomDOM = document.getElementById('mygtukas');
-
-
-if (buttomDOM === null) {
-    console.log('Mygtuko nera!');
-} else {
-    console.log('Mygtukas rastas');
-
-    const titleDOM = document.getElementById('antraste');
-    console.log(titleDOM);
-
-    if (titleDOM === null) {
-        console.log('Nepavyko rasti antrastes');
-    } else {
-        console.log('Antraste egzistuoja!');
-
-        titleDOM.textContent = 'Labas vakaras!';
-    }
-}
+const titleDOM = document.getElementById('antraste');
 
 function kaDaryti() {
-    console.log('eik pakeisk teksta...');
     titleDOM.textContent = 'Labas vakaras!';
 }
 
-
 buttomDOM.addEventListener('click', kaDaryti);
+
+

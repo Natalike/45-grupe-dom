@@ -43,5 +43,6 @@ form > button:last-child {
     background-color: yellow;
 }
 form > div {
-    background-color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
 }
