@@ -32,3 +32,11 @@ if (buttomDOM === null) {
         titleDOM.textContent = 'Labas vakaras!';
     }
 }
+
+function kaDaryti() {
+    console.log('eik pakeisk teksta...');
+    titleDOM.textContent = 'Labas vakaras!';
+}
+
+
+buttomDOM.addEventListener('click', kaDaryti);
