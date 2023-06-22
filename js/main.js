@@ -1,4 +1,4 @@
-console.clear();
+//console.clear();
 
 //paspaudus <button> elementa
 //<h1> elemente pasikeistu tekstas
@@ -12,6 +12,10 @@ console.clear();
 //          - <h1> elemente keiciam teksta
 // - jei NERA:
 // - nieko nedarom...
+import { renderHeader } from './header.js';
+
+renderHeader (true);
+
 
 const buttomDOM = document.getElementById('mygtukas');
 const titleDOM = document.getElementById('antraste');
